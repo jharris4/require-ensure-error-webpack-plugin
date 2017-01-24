@@ -1,0 +1,30 @@
+{
+  "name": "require-ensure-error-webpack-plugin",
+  "version": "0.0.1",
+  "description": "Adds an error callback to webpack 2.2+ require.ensure calls",
+  "main": "index.js",
+  "scripts": {
+    "example": "webpack --config example/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jharris4/require-ensure-error-webpack-plugin.git"
+  },
+  "keywords": [
+    "webpack 2",
+    "require.ensure",
+    "require",
+    "error",
+    "handling"
+  ],
+  "author": "Jon Harris <harris.jb@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jharris4/require-ensure-error-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/jharris4/require-ensure-error-webpack-plugin",
+  "dependencies": {
+    "loader-utils": "^0.2.16",
+    "webpack": "^2.2.0"
+  }
+}
