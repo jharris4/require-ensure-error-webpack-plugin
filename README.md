@@ -1,10 +1,14 @@
 # require-ensure-error-webpack-plugin
 
-This plugin adds support for an error handling callback to require.ensure in Webpack 2.2+
+**This plugin is no longer useful if you use Webpack Version >= 2.4**
+
+This plugin adds support for an error handling callback to require.ensure in Webpack >= 2.2 < 2.4
 
 **This plugin requires Webpack Version 2.2+**
 
 For Webpack 1.x support, see the [require-error-handler-webpack-plugin](https://github.com/richardscarrott/require-error-handler-webpack-plugin/blob/master/src/BundleLoader.js)
+
+For Webpack >= 2.4, the logic of this Plugin has been merged into webpack itself. See https://github.com/webpack/webpack/pull/4069
 
 ## Installation
 
